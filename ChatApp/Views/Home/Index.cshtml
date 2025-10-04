@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "SignalR Chat";
+}
+
+<h2>SignalR MVC Chat</h2>
+
+<div>
+    <input id="userInput" placeholder="Enter your name" />
+    <input id="messageInput" placeholder="Enter a message" />
+    <button id="sendButton" disabled>Send</button>
+</div>
+
+<ul id="messagesList" style="list-style:none; padding-left:0; margin-top:12px;"></ul>
+
+<!-- SignalR JS client from CDN (use a version that matches your server if necessary) -->
+<script src="https://cdn.jsdelivr.net/npm/@@microsoft/signalr@latest/dist/browser/signalr.min.js"></script>
+
+<!-- Your chat client script -->
+<script src="~/js/chat.js"></script>
