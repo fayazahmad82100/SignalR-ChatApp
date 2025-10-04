@@ -116,7 +116,7 @@ http://192.168.1.10:5000
 ---
 
 ## Screenshot (Optional)
-> ![Chat Screenshot](SignalR-ChatApp.jpg)
+> ![Chat Screenshot](SignalR-ChatApp.JPG)
 
 ---
 
